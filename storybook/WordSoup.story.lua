@@ -24,7 +24,9 @@ local words = {
 }
 
 local names = {
-    "Liam", "Emma", "Noah", "Olivia", "William", "Ava", "James", "Isabella", "Oliver", "Sophia", "Benjamin", "Charlotte", "Elijah", "Mia", "Lucas", "Amelia", "Mason", "Harper", "Logan", "Evelyn",
+    "Liam", "Emma", "Noah", "Olivia", "William", "Ava", "James", "Isabella",
+    "Oliver", "Sophia", "Benjamin", "Charlotte", "Elijah", "Mia", "Lucas",
+    "Amelia", "Mason", "Harper", "Logan", "Evelyn",
 }
 
 local users = {}

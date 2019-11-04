@@ -76,7 +76,7 @@ local function calculateScrollInfo(currentIndex, scrollDelta, viewHeight, buffer
     -- Add buffer
     last = math.min(last + buffer, numItems)
 
-    local doDebug = true
+    local doDebug = false
     if doDebug then
         local inputs = {
             currentIndex = currentIndex,
