@@ -1,0 +1,72 @@
+{
+  "name": "RecycleListView",
+  "tree": {
+    "$className": "DataModel",
+    "HttpService": {
+      "$className": "HttpService",
+      "$properties": {
+        "HttpEnabled": true
+      }
+    },
+    "Lighting": {
+      "$className": "Lighting",
+      "$properties": {
+        "Brightness": 2.0,
+        "Outlines": false,
+        "Technology": "Voxel",
+        "Ambient": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "GlobalShadows": true
+      }
+    },
+    "ReplicatedStorage": {
+      "$className": "ReplicatedStorage",
+      "Source": {
+        "$path": "Packages",
+        "RecycleListView": {
+          "$path": "src",
+          "Storybook": {
+            "$path": "storybook"
+          }
+        }
+      }
+    },
+    "SoundService": {
+      "$className": "SoundService",
+      "$properties": {
+        "RespectFilteringEnabled": true
+      }
+    },
+    "Workspace": {
+      "$className": "Workspace",
+      "$properties": {
+        "FilteringEnabled": true
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Color": [
+            0.38823,
+            0.37254,
+            0.38823
+          ],
+          "Position": [
+            0.0,
+            -10.0,
+            0.0
+          ],
+          "Locked": true,
+          "Anchored": true,
+          "Size": [
+            512.0,
+            20.0,
+            512.0
+          ]
+        }
+      }
+    }
+  }
+}

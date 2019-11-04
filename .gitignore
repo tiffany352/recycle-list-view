@@ -1,0 +1,5 @@
+Packages/**
+*.rbxlx
+*.rbxlx.lock
+# Because this is a library
+rotriever.lock

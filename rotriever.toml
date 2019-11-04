@@ -1,0 +1,10 @@
+[package]
+name = "tiffany352/recycle-list-view"
+version = "0.1.0"
+author = "Tiffany Bennett"
+content_root = "src"
+license = "MPLv2"
+
+[dependencies.Roact]
+git = "https://github.com/roblox/roact"
+rev = "v1.2.0"
